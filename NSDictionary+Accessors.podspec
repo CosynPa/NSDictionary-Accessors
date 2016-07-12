@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NSDictionary+Accessors"
+  s.module_name  = "NSDictionaryAccessors"
   s.platform     = :ios
   s.version      = "1.0.0"
   s.summary      = "Type safe accessors for NSDictionary, better used with dictionary parsed from JSON."
